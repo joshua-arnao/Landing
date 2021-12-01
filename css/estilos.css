@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* Cabecera */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fcfff5;
+  }
+
+  .menu{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      justify-content: center;
+      height: 70px;
+      padding: auto;
+      margin: auto;
+      border: black;
+  }
+
+  .menu a{
+    padding: 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
