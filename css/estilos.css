@@ -19,7 +19,7 @@ body {
 header{
   width: 100%;
   height: 200px;
-  background-color: #CEF5E0;
+  background-color: #D5DCF9;
 }
 
 .logo{
@@ -44,8 +44,9 @@ header{
 
 .menu a{
   text-decoration: none;
-  color: gray;
+  color: #443627;
   font-size: 16px;
+  text-transform: uppercase;
 }
 /* Fin cabecera */
 
@@ -78,28 +79,29 @@ header{
 
 .objetivo p:nth-child(1) {
   font-size: 14px;
-  color: #002523;
+  color: #725E54;
   padding-bottom: 24px;
   text-transform: uppercase;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #A7B0CA
+  ;
 }
 
 .objetivo h3{
   padding-top: 24px;
   padding-bottom: 32px;
-  color: #003C74;
+  color: #725E54;
   font-size: 18px;
 }
 
 .objetivo p:nth-child(3){
   font-size: 14px;
-  color: #002523;
+  color: #725E54;
   padding-bottom: 24px;
 }
 
 .objetivo p:nth-child(4){
   font-size: 14px;
-  color: #002523;
+  color: #725E54;
   padding-bottom: 16px;
 }
 
@@ -117,4 +119,29 @@ header{
     text-align: left;
   }
 }
+
+@media all and (max-width:768px){
+  .detallado{
+    padding-bottom: 8px;
+  }
+  
+  .objetivo{
+    padding: 16px;
+  }
+}
 /* Fin sección objetivo */
+
+/* Sección banner HTML */
+.banner{
+  width: 100%;
+  height: 311px;
+  background-image: url(../img/foto-html.jpg);
+  background-size: cover;
+  background-color: cover;
+}
+
+.banner > div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 219, 189, 0.5);
+}
