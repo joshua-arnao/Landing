@@ -51,33 +51,33 @@ header{
 /* Fin cabecera */
 
 /* Sección objetivo */
-.detallado{
+.detailed{
   padding-bottom: 80px;
 }
 
-.detallado > .contenedor{
+.detailed > .contenedor{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.foto-programando{
+.programing{
   width: 100%;
   max-width: 520px;
 }
 
-.foto-programando img{
+.programing img{
   width: 100%;
 }
 
-.objetivo{
+.goal{
   text-align: center;
   padding: 16px 0px;
   width: 520px;
 }
 
-.objetivo p:nth-child(1) {
+.goal p:nth-child(1) {
   font-size: 14px;
   color: #725E54;
   padding-bottom: 24px;
@@ -86,67 +86,82 @@ header{
   ;
 }
 
-.objetivo h3{
+.goal h3{
   padding-top: 24px;
   padding-bottom: 32px;
   color: #725E54;
   font-size: 18px;
 }
 
-.objetivo p:nth-child(3){
+.goal p:nth-child(3){
   font-size: 14px;
   color: #725E54;
   padding-bottom: 24px;
 }
 
-.objetivo p:nth-child(4){
+.goal p:nth-child(4){
   font-size: 14px;
   color: #725E54;
   padding-bottom: 16px;
 }
 
 @media all and (min-width:769px){
-  .detallado{
+  .detailed{
     padding-top: 80px;
   }
 
-  .foto-programando{
+  .programins{
     margin-right: 30px;
   }
 
-  .objetivo{
+  .goal{
     padding-left: 30px;
     text-align: left;
   }
 }
 
 @media all and (max-width:768px){
-  .detallado{
+  .detailed{
     padding-bottom: 8px;
   }
   
-  .objetivo{
+  .goal{
     padding: 16px;
   }
 }
 /* Fin sección objetivo */
 
-/* Sección banner HTML */
-.banner-html{
+/* Sección banners */
+.banner__primary{
   width: 100%;
   height: 311px;
   background-image: url(../img/foto-html.jpg);
   background-size: cover;
-  background-color: cover;
+  background-position: center;
 }
 
-.banner-html > div{
+.banner__primary > div{
   width: 100%;
   height: 100%;
   background-color: rgba(209, 219, 189, 0.5);
 }
 
-.accion-html{
+.banner__secundary{
+  width: 100%;
+  height: 311px;
+  background-image: url(../img/foto-css.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 4px;
+}
+
+.banner__secundary > div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 219, 189, 0.5);
+}
+
+.action{
   text-align: center;
   display: flex;
   flex-flow: column wrap;
@@ -156,39 +171,52 @@ header{
   height: 100%;
 }
 
-.accion-html h2{
+.action h2{
   font-size: 40px;
   color: white;
   width: 100%;
   padding: 45px 0;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 480px;
 }
 
-.accion-html a{
+.action a{
   font-size: 18px;
   text-decoration: none;
   color: white;
   padding: 10px 48px;
   background-color: #443627;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   margin-top: 24px;
   
   transition: all 0.3s ease-in-out;
 }
 
-.accion-html a:hover{
+.action a:hover{
   background-color: #987A5B;
 }
 
 @media all and (min-width:1000px){
-  .banner-html{
+  .banner__primary{
+    height: 476px;
+  }
+  .banner__secundary{
     height: 476px;
   }
 }
 
-/* Sección Banner CSS */
-.banner-css{
-  
+/* Pie de página */
+.top__footer{
+  background-color: #4b4f63;
+  height: 24px;
 }
+
+.center__footer{
+  background-color: #343744;
+}
+
+.bottom__footer{
+  background-color: #4b4f63;
+  height: 24px;
+}
+
